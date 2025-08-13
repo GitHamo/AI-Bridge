@@ -2,6 +2,14 @@
 
 A simple PHP package to interact with various AI engines, providing a unified interface for sending prompts and receiving responses.
 
+## Installation
+
+Install the package via [Composer](https://getcomposer.org/):
+
+```bash
+composer require potato/ai-bridge
+```
+
 ## Usage
 
 The main entry point of the package is the `Potato\AiBridge\Agent` class. You can create an agent for a specific AI engine and use it to send prompts.
